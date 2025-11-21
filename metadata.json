@@ -1,0 +1,5 @@
+{
+  "name": "Huisarts Epilepsie Richtlijn",
+  "description": "Een interactieve beslissingsondersteunende applicatie voor huisartsen gebaseerd op de SPAOGS Richtlijn Epilepsie (S35). Bevat acute triage, anamnese checklists en medicatie naslagwerk.",
+  "requestFramePermissions": []
+}
