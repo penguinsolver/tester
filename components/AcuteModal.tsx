@@ -25,7 +25,7 @@ export const AcuteModal: React.FC<AcuteModalProps> = ({ isOpen, onClose }) => {
         
         <div className="p-6 space-y-6 max-h-[80vh] overflow-y-auto">
           <div className="bg-red-50 p-4 rounded-lg border border-red-100">
-            <h3 className="font-bold text-red-800 mb-2">Status Epilepticus (> 5 min)</h3>
+            <h3 className="font-bold text-red-800 mb-2">Status Epilepticus (&gt; 5 min)</h3>
             <ul className="list-disc pl-5 space-y-1 text-red-900 font-medium">
                 {ACUTE_TREATMENT.steps.map((step, idx) => (
                     <li key={idx}>{step}</li>
